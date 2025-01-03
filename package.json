@@ -29,6 +29,7 @@
     "@angular/platform-browser-dynamic": "15.0.4",
     "@angular/router": "15.0.4",
     "@ngneat/until-destroy": "9.2.2",
+    "@ngrx/signals": "^19.0.0",
     "helpful-decorators": "^2.1.0",
     "rxjs": "7.8.0",
     "tslib": "2.4.1",
@@ -84,5 +85,14 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "engines": {
+    "node": "20.16.x",
+    "yarn": "1.22.x"
+  },
+  "volta": {
+    "node": "20.16.0",
+    "yarn": "1.22.19",
+    "nx": "18.0.4"
   }
 }
